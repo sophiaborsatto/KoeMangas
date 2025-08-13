@@ -109,4 +109,24 @@
 
 ---
 
+Casos de Uso - Sistema de Leitura de Mangás
+
+Caso de Uso 1: Ler o mangá
+
+Ator Principal: Leitor
+
+Fluxo Principal:
+O leitor escolhe um dos mangás disponíveis no catálogo
+O leitor escolhe qual capítulo irá ler, dentre os liberados a depender do plano dele
+O aplicativo mostra as formas disponíveis para ler o capítulo selecionado
+Após escolher a forma de leitura, ele lê, vê e/ou escuta o mangá
+
+Fluxo Alternativo:
+Se o leitor não selecionar o mangá ou a forma de leitura, nada acontece.
+
+Pós-condições:
+Se o leitor tiver uma conta cadastrada, o capítulo é registrado como lido no perfil dele e o aplicativo pergunta se ele gostaria de deixar uma nota ou realizar uma contribuição.
+
+---
+
 *Este README serve como base para todo o ciclo de desenvolvimento e alinhamento de equipe.*
